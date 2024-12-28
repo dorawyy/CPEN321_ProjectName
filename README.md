@@ -11,6 +11,9 @@ The template repository is structured as follows:
 * `.gitignore`: A file that tells Git which files to ignore.
 * `README.md`: This file.
 * `CHANGELOG.md`: A log of changes made to the project.
+* `.eslintrc.json`: The configuration file for the [ESLint](https://eslint.org/) tool, which you will need later for code review. 
+* `checkstyle.xml`: The configuration file for the [CheckStyle](https://checkstyle.sourceforge.io/) tool, which you will need later for code review. 
+* `ruleset.xml`: The configuration file for the [PMD](https://pmd.github.io/) tool, which you will need later for code review. 
 
 ## Guidelines
 * The `.gitkeep` files inside the folders are used to keep the folders in the repository. You can delete them once you add files to the folders.
